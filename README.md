@@ -9,7 +9,7 @@ Scripts that load a dataset, transcribe it, and score WER (jiwer) + BERTScore (r
 Two datasets:
 
 - `mcd_data` — Mozilla Common Voice subset. 400 clips, 200 native / 200 non-native. General conversational speech.
-- `accented_data` — lab recordings of the four scripted STEM passages. Grouped Native / Native MD / Accented / Accented MD.
+- `accented_data` — lab recordings of the four scripted STEM passages. Grouped Native / Native MD / Accented / Accented MD. This is the lab's private data and is not in the repo. It cannot be shared.
 
 8 models: Qwen3-ASR 0.6B and 1.7B, Whisper Large V3, Distil-Whisper v3.5, Cohere Transcribe, Parakeet-TDT 0.6B v3, Canary-Qwen 2.5B, Wav2Vec2.
 
@@ -17,7 +17,7 @@ The runs are in. Numbers and the native vs non-native check are in `writeup.md`.
 
 ## How to run
 
-Needs ffmpeg on PATH (wav conversion). Deps are in `requirements.txt`.
+Needs ffmpeg on PATH (wav conversion). Deps are in `requirements.txt`. Most of the runs were on HPC, and files were moving back and forth with the laptop, so that list can be inconsistent. Versions might be off. Good luck.
 
 From the repo root:
 

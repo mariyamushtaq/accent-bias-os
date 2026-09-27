@@ -7,7 +7,7 @@ Question was whether these ASR models miss more on non-native English when the s
 Two sets, same 8 models, same columns.
 
 - `mcd_data`: Mozilla Common Voice subset, 400 clips, 200 native and 200 non-native. Short conversational sentences.
-- `accented_data`: 60 recordings, 16 people (8 native, 8 non-native), each reading the scripted STEM passages. Also split MD / non-MD.
+- `accented_data`: 60 recordings, 16 people (8 native, 8 non-native), each reading the scripted STEM passages. Also split MD / non-MD. This set belongs to the lab I was working with. It is private and cannot be shared.
 
 WER is jiwer, lowercased. BERTScore is roberta-large. Both are already stored per clip in the result CSVs. The numbers below are the mean of those per-clip scores.
 
