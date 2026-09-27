@@ -1,0 +1,18 @@
+# Most of this ran on HPC. Files were moving back and forth between
+# that and the laptop the whole time, so this is the import list, not
+# a frozen env from the machine that actually did the runs. Versions
+# might be off. Good luck fixing it.
+
+torch
+transformers
+pandas
+numpy
+jiwer
+bert-score
+librosa
+qwen-asr
+nemo_toolkit[asr]
+cohere
+
+# ffmpeg has to be on PATH. utils.audio_conversion shells out to it.
+# It is not a pip package.

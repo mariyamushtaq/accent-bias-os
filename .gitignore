@@ -1,0 +1,18 @@
+.env
+venv/
+venv_medasr/
+
+# audio + converted wavs. code only.
+Data/
+data/
+
+# per-model CSVs and the aggregate tables
+results/
+
+# working notes
+note.txt
+
+__pycache__/
+*.pyc
+
+.DS_Store
